@@ -1,0 +1,90 @@
+header {
+    height: 100vh;
+    max-height: 800px;
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: grey;
+    background-blend-mode: darken;
+}
+
+body {
+    margin: 0px;
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+header h1 {
+    font-size: 8vh;
+    border: solid 1px;
+    padding: 2vh;
+}
+
+header p {
+    font-size: 3vh;
+}
+
+.card-logo {
+    height: 100px;
+    position: relative;
+    top: -55px;
+}
+
+.card-content {
+    position: relative;
+    top: -50px;
+    text-align: center;
+    height: 100%;
+}
+
+.card {
+    margin: 75px 18px 18px 18px;
+    color: white;
+    border-radius: 15px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    height: 260px;
+}
+
+.ctu {
+    background: #1488CC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.freecodecamp {
+    background: #52c234;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #0e3300, #239c02);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #0e3300, #239c02); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.card-contain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-footer {
+    font-size: 14px;
+    width: 100%;
+    text-align: right;
+    padding-right: 6px;
+    position: relative;
+    top: -20px;
+}
