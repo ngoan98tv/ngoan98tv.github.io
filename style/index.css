@@ -21,7 +21,8 @@ header h1 {
     font-family: 'Lobster', cursive;
     font-size: 8vh;
     border: solid 1px;
-    padding: 2vh;
+    padding: 2vh 5vh 2vh 5vh;
+    font-weight: normal;
 }
 
 p {
@@ -29,7 +30,7 @@ p {
 }
 
 header p {
-    font-size: 3vh;
+    font-size: 4vh;
     font-family: 'Poiret One', cursive;
 }
 
