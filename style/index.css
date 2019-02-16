@@ -50,6 +50,7 @@ header p {
     align-items: center;
     padding: 12px;
     height: 260px;
+    box-shadow: 5px 5px 5px grey;
 }
 
 .ctu {
@@ -88,7 +89,7 @@ header p {
 }
 
 #education {
-    margin: 42px 24px 24px 24px;
+    margin: 62px 24px 24px 24px;
     border: solid 3px white;
     display: flex;
     flex-direction: column;
@@ -101,7 +102,14 @@ header p {
     top: -35px;
     color: white;
     background-color: #8e9eab;
-    width: 400px;
+    width: 320px;
+}
+
+@media (max-width: 480px) {
+    #education h2 {
+        width: 200px;
+        top: -45px;
+    }
 }
 
 footer {
@@ -110,4 +118,18 @@ footer {
     padding: 12px;
     font-size: 14px;
     text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.sololearn {
+    background: #CAC531;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, rgb(214, 211, 0), rgb(134, 130, 1));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, rgb(214, 211, 0), rgb(134, 130, 1)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.sololearn .card-logo {
+    border-radius: 50%;
 }
