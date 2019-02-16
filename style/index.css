@@ -111,7 +111,7 @@ header p {
         top: -45px;
     }
     #contact {
-        padding-left: 0px !important;
+        padding: 0px !important;
     }
 }
 
@@ -140,7 +140,7 @@ footer {
 .rounded-bar {
     padding: 6px;
     border-radius: 25px;
-    width: 250px;
+    width: 280px;
     margin: 12px;
     box-shadow: 5px 5px 5px grey;
     color: white;
@@ -165,7 +165,7 @@ footer {
 
 #contact {
     margin: auto;
-    max-width: 900px;
+    max-width: 950px;
     min-width: 300px;
     padding: 24px;
 }
