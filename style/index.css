@@ -18,13 +18,19 @@ body {
 }
 
 header h1 {
+    font-family: 'Lobster', cursive;
     font-size: 8vh;
     border: solid 1px;
     padding: 2vh;
 }
 
+p {
+    font-family: 'Anonymous Pro', monospace;
+}
+
 header p {
     font-size: 3vh;
+    font-family: 'Poiret One', cursive;
 }
 
 .card-logo {
@@ -72,6 +78,15 @@ header p {
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+
+.card-content p {
+    font-size: 14px;
+}
+
+.card h3 {
+    font-size: 18px;
+    font-family: 'Crete Round', serif;
 }
 
 .card a {
@@ -138,6 +153,7 @@ footer {
 }
 
 .rounded-bar {
+    font-size: 14px;
     padding: 6px;
     border-radius: 25px;
     width: 280px;
