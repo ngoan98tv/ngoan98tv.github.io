@@ -110,6 +110,9 @@ header p {
         width: 200px;
         top: -45px;
     }
+    #contact {
+        padding-left: 0px !important;
+    }
 }
 
 footer {
@@ -163,6 +166,7 @@ footer {
 #contact {
     margin: auto;
     max-width: 900px;
+    min-width: 300px;
     padding: 24px;
 }
 
