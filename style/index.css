@@ -10,6 +10,7 @@ header {
   color: white;
   background-color: grey;
   background-blend-mode: darken;
+  padding: 24px;
 }
 
 body {
@@ -123,7 +124,7 @@ header p {
 
 #education {
   margin: 62px 24px 24px 24px;
-  border: solid 3px white;
+  border-top: solid 3px white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -134,18 +135,12 @@ header p {
   text-align: center;
   top: -35px;
   color: white;
-  background-color: #8e9eab;
-  width: 320px;
+  width: 100vw;
 }
 
-@media (max-width: 480px) {
-  #education h2 {
-    width: 200px;
-    top: -45px;
-  }
-  #contact {
-    padding: 0px !important;
-  }
+#education h2 span {
+  background-color: #8e9eab;
+  padding: 0px 12px;
 }
 
 footer {
@@ -209,9 +204,26 @@ footer {
 
 #contact {
   margin: auto;
-  max-width: 950px;
-  min-width: 300px;
+  margin-top: 62px;
   padding: 24px;
+  padding-top: 38px;
+  background-color: grey;
+  position: relative;
+}
+
+#contact h2 {
+  position: absolute;
+  top: -48px;
+  left: 0px;
+  color: white;
+  text-align: center;
+  width: 100vw;
+}
+
+#contact h2 span {
+  padding: 6px 32px;
+  border-radius: 12px 12px 0px 0px;
+  background-color: grey;
 }
 
 .email {
