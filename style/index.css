@@ -16,6 +16,7 @@ header {
 body {
   margin: 0px;
   background: #8e9eab; /* fallback for old browsers */
+  overflow-x: hidden;
 }
 
 header h1 {
@@ -61,6 +62,7 @@ header p {
   height: 260px;
   box-shadow: 5px 5px 5px grey;
   transition: transform 400ms;
+  text-decoration: none;
 }
 
 .ctu {
@@ -123,24 +125,27 @@ header p {
 }
 
 #education {
-  margin: 62px 24px 24px 24px;
-  border-top: solid 3px white;
+  margin: 0px;
+  padding-top: 64px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 #education h2 {
-  position: relative;
-  text-align: center;
-  top: -35px;
+  position: absolute;
+  top: -48px;
+  left: 0px;
   color: white;
+  text-align: center;
   width: 100vw;
 }
 
 #education h2 span {
   background-color: #8e9eab;
-  padding: 0px 12px;
+  padding: 6px 32px;
+  border-radius: 12px 12px 0px 0px;
 }
 
 footer {
